@@ -81,6 +81,7 @@ export class RobotArm extends gfx.Skeleton
             armMesh.position.set(0, bone.length/2, 0);
             armMesh.material.setColor(new gfx.Color(1, 0, 0));
             bone.add(armMesh);
+            
         }
 
         bone.children.forEach((child: gfx.Node3) => {
